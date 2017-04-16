@@ -1,0 +1,1 @@
+1- For Initiate Liferay web need to have define the JAVA_HOME.
