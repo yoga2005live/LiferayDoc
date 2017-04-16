@@ -1,1 +1,2 @@
-1- For Initiate Liferay web need to have define the JAVA_HOME.
+1- For Initiate Liferay web need to have define the JAVA_HOME and JRE_HOME.
+	- For run inside eclipse create a new server using Liferay Server
