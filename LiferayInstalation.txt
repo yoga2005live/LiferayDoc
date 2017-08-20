@@ -14,3 +14,6 @@ Set up ANT
 
 Set up MAVEN
 - Same steps that ANT replacing ANT_HOME with M2_HOME
+
+Set the corresponding ZoneTime put
+-Duser.timezone=EST(this was the one that works) on tomcat setenv.bat
