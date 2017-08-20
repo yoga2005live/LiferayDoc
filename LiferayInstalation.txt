@@ -2,3 +2,15 @@
 	- For run inside eclipse create a new server using Liferay Server.
 	- If i add the envioment variable JRE_HOME(This could generate "There is an error in invoking javac. A full JDK (not just JRE) is required").
 		. Rember(to test the portlets) that the runtine envioment on eclipse be default come with JRE and JDK for this first execute outside(startup.bat) and last inside the eclipse. 
+Set up the liferay SDK
+- Rename the build.properties to build.{$pcUser}.properties
+- Change the app.server.parent.dir to the liferay home example(C:\Users\yoga2\Desktop\liferay-ce-portal-7.0-ga4)
+
+Set up ANT
+- Download lastest APACHE ANT version.
+- Unzip to a folder.
+- Create environment variable ANT_HOME with path to ANT files
+- Add %ANT_HOME%\bin to environment variable PATH
+
+Set up MAVEN
+- Same steps that ANT replacing ANT_HOME with M2_HOME
